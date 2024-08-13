@@ -1,0 +1,48 @@
+:root{
+    --main-color: #009fe3;
+}
+
+body{
+    font-family: 'Afacad', sans-serif;
+    margin: 0;
+}
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+}
+
+.title{
+    color: white;
+}
+
+.content{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.content img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 300px;
+    max-height: 100%;
+}
+
+.content h2{
+    font-size: 30px;
+}
+
+.content p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.content span{
+    font-style: italic;
+    color: var(--main-color);
+}
